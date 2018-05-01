@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1329433137386180}
+  m_IsPrefabParent: 1
+--- !u!1 &1329433137386180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4996488731933076}
+  - component: {fileID: 114580056380714046}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4996488731933076
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1329433137386180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114580056380714046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1329433137386180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3128f5e23566e5b4a9d0de7406aef094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelStartDelay: 2
+  bluePlayer: {fileID: 1098825986793086, guid: 28b8ce3f20dbe4a4da64513f2a8eb98c, type: 2}
+  redPlayer: {fileID: 1991776291390986, guid: c6301a1d665443d46bab91766236ca5e, type: 2}
+  gameMap: {fileID: 1406091470111384, guid: 39deed3a4e4629b4cad13beadd1cdd05, type: 2}
+  cursor: {fileID: 1294299505097056, guid: 41ba69a844b95a2479fa144251ab112c, type: 2}
+  neutralCursor: {fileID: 1123190254885860, guid: d77cf657260942b40a00923bd253fe00,
+    type: 2}
+  blueSource: {fileID: 1869140537440432, guid: 682c70bab98ea414293726836814212a, type: 2}
+  redSource: {fileID: 1322362631326148, guid: f03bb0b0ee13a2248a52e6c0e9d4b8c7, type: 2}
+  levelSize: 7
+  teamTurn: 0
+  selected: 0

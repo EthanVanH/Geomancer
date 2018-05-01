@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Fountain
+  - Water
+  - Cursor
+  - Blocker
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - row-10
+  - row-9
+  - row-8
+  - row-7
+  - row-6
+  - row-5
+  - row-4
+  - row-3
+  - row-2
+  - row-1
+  - row0
+  - row1
+  - row2
+  - row3
+  - row4
+  - row4
+  - row5
+  - row6
+  - row7
+  - row8
+  - row9
+  - row10
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: sortrow-10
+    uniqueID: 3719593067
+    locked: 0
+  - name: sortrow-9
+    uniqueID: 2116722577
+    locked: 0
+  - name: sortrow-8
+    uniqueID: 1380548681
+    locked: 0
+  - name: sortrow-7
+    uniqueID: 961096871
+    locked: 0
+  - name: sortrow-6
+    uniqueID: 4161736535
+    locked: 0
+  - name: sortrow-5
+    uniqueID: 1341234193
+    locked: 0
+  - name: sortrow-4
+    uniqueID: 2930684323
+    locked: 0
+  - name: sortrow-3
+    uniqueID: 2788728511
+    locked: 0
+  - name: sortrow-2
+    uniqueID: 2969315027
+    locked: 0
+  - name: sortrow-1
+    uniqueID: 1417796405
+    locked: 0
+  - name: sortrow0
+    uniqueID: 4198763943
+    locked: 0
+  - name: sortrow1
+    uniqueID: 4140883371
+    locked: 0
+  - name: sortrow2
+    uniqueID: 2960583567
+    locked: 0
+  - name: sortrow3
+    uniqueID: 3926236663
+    locked: 0
+  - name: sortrow4
+    uniqueID: 2176698099
+    locked: 0
+  - name: sortrow5
+    uniqueID: 2877195951
+    locked: 0
+  - name: sortrow6
+    uniqueID: 4067803677
+    locked: 0
+  - name: sortrow7
+    uniqueID: 388155679
+    locked: 0
+  - name: sortrow8
+    uniqueID: 740705509
+    locked: 0
+  - name: sortrow9
+    uniqueID: 2993395313
+    locked: 0
+  - name: sortrow10
+    uniqueID: 656778663
+    locked: 0
